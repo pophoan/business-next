@@ -52,9 +52,9 @@ nav img {
 /* main-news */
 
 .news {
+  position: relative;
   height: 1290px;
   background-color: pink;
-
 }
 
 .main-bg {
@@ -109,38 +109,42 @@ nav img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
+
+
 }
 
 .content img {
-  margin-top: 28vw;
+  /* margin-top: 28vw; */
   width: 45vw;
 }
 
+
+
 .conten-main .top {
-  width: 39vw;
+  text-align: center;
   /* font-weight: bold; */
   letter-spacing: 1px;
 }
 
 .conten-main .top h3 {
+  display: inline-block;
   font-size: 24px;
   line-height: 2vw;
   color: white;
   background-color: #1e1e1e;
   height: 2vw;
   font-weight: 500;
+  width: 756px;
 }
 
 .conten-main .top p {
+  display: inline-block;
   line-height: 2vw;
   font-size: 24px;
   background-color: #fff;
-  height: 2vw;
-  font-weight: 500;
+  font-weight: 700;
+  width: 756px;
 }
 
 .content .bottom {
@@ -161,13 +165,110 @@ nav img {
 
 .multispeaker img {
   margin-top: 1vw;
-  margin-bottom: 4vw;
   width: 50vw;
 }
 
 /* audience */
 .audience {
+  /* padding-inline: 200px; */
   position: relative;
   height: 360px;
-  background-color: red;
+  background: linear-gradient(144deg, #ED5D35 0%, #BE2900 100%);
+  padding-block: 64px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.audience-left h2 {
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.audience-right {
+  margin-left: 90px;
+  display: flex;
+
+}
+
+.article {
+  padding-inline: 20px;
+  width: 16.2vw;
+}
+
+.article img {
+  border-bottom: 3px solid white;
+  padding-bottom: 15px;
+}
+
+.article h3 {
+  font-size: 19.2px;
+  font-weight: 900;
+  margin-block: 10px;
+}
+
+.article p {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.highlights {
+  position: relative;
+  height: 530px;
+  background-color: white;
+  z-index: 2;
+  background: url("/images/bg-gray.jpg") center center;
+}
+
+.highlights img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+/* agenda */
+.agenda {
+  position: relative;
+  height: 2533px;
+  background-color: pink;
+  z-index: 2;
+  background: url("/images/pattern-10.png") no-repeat center center;
+  background-size: 100% auto;
+  background-attachment: fixed;
+}
+
+.bg-pic img:nth-child(1) {
+  width: 20.8vw;
+  position: absolute;
+  top: 3%;
+  right: 10%;
+  transform: rotate(15deg);
+  z-index: -1;
+}
+
+.bg-pic img:nth-child(2) {
+  width: 10.4vw;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: rotate(15deg);
+  z-index: -1;
+}
+
+.bg-pic img:nth-child(3) {
+  width: 16.4vw;
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+  transform: rotate(-15deg);
+  z-index: -1;
+}
+
+.agenda .people-style1 {
+  height: 439.4px;
+  background-color: pink;
 }
