@@ -508,11 +508,15 @@ nav img {
 .ticket ul {
   display: flex;
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .ticket li {
-  flex: 1 0 0px;
+  margin-right: 10px;
+}
+
+.ticket li:nth-child(4) {
+  /* margin-right: 0; */
 }
 
 .ticket li p {
