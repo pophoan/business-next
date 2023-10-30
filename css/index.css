@@ -470,7 +470,7 @@ nav img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50.6vw;
-  height: 39.1vw;
+  height: 50.1vw;
   /* background-color: pink; */
 }
 
@@ -503,6 +503,7 @@ nav img {
 .information .rule a {
   color: red;
 }
+
 
 .ticket ul {
   display: flex;
@@ -579,6 +580,7 @@ nav img {
   letter-spacing: 1.5px;
   font-weight: 400;
   margin-top: 2vw;
+
 }
 
 .info h6 {
