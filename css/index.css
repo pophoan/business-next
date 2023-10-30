@@ -511,6 +511,10 @@ nav img {
   justify-content: space-between;
 }
 
+.ticket li {
+  flex: 1 0 0px;
+}
+
 .ticket li p {
   display: inline-block;
   color: #1e1e1e;
